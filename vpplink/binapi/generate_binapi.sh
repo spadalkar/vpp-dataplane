@@ -80,7 +80,8 @@ function generate_govpp_apis ()
 	  ip6_nd \
 	  punt \
 	  vxlan \
-	  vpe
+	  vpe \
+      capo
 }
 
 make_binapi_generator
